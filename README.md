@@ -1,3 +1,5 @@
+[![CICD](https://github.com/chrishart0/learn-react/actions/workflows/master.yml/badge.svg)](https://github.com/chrishart0/learn-react/actions/workflows/master.yml)
+
 # Guide
 https://reactjs.org/tutorial/tutorial.html#lifting-state-up
 
