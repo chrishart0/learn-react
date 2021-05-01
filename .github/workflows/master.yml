@@ -22,14 +22,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      - name: prepare git
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-
-      - name: Install packages
-        run: npm install
-
-      - name: Deploy to GitHub Pages
-        run: npm run deploy
+          npm install
+          npm run deploy
