@@ -23,6 +23,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: prepare git
+        run: |
+          git config --global user.email "git@github.com"
+          git config --global user.name "GitHub Actions"
+
       - name: Install packages
         run: npm install
 
