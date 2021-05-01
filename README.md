@@ -1,6 +1,9 @@
 # Guide
 https://reactjs.org/tutorial/tutorial.html#lifting-state-up
 
+# Deployment
+https://chrishart0.github.io/learn-react/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
